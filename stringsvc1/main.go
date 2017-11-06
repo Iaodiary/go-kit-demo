@@ -2,7 +2,7 @@
 package main
 
 import (
-	"context"
+	"context" //Context 是管理Goroutine生命周期的包，同时提供了一种 Requst-Scope K-V Store来管理上下文。于Go 1.7之后被列入官方库， 引入方式 import "context"； 1.6及之前引入 import
 	"encoding/json"
 	"errors"
 	"log"

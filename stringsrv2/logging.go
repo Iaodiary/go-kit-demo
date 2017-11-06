@@ -6,6 +6,7 @@ import (
 	"github.com/go-kit/kit/log"
 )
 
+//loggingMiddleware is a struct who include the service and log then exe it
 type loggingMiddleware struct {
 	logger log.Logger
 	next   StringService
