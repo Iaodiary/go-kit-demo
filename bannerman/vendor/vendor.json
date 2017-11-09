@@ -1,6 +1,21 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
-	"rootPath": "go-kit-demo/bannerman"
+	"package": [
+		{
+			"checksumSHA1": "Tm7AeB5q3ZL6AXHIk9a/h5eEcmY=",
+			"path": "github.com/go-kit/kit/log",
+			"revision": "e2b298466b32c7cd5579a9b9b07e968fc9d9452c",
+			"revisionTime": "2017-10-21T13:24:59Z"
+		},
+		{
+			"path": "github.com/go-logfmt/logfmt",
+			"revision": ""
+		},
+		{
+			"path": "github.com/go-stack/stack",
+			"revision": ""
+		}
+	],
+	"rootPath": "yikeshome/go-kit-demo/bannerman"
 }
