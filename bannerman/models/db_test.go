@@ -5,7 +5,7 @@ import (
 )
 
 func TestPing(t *testing.T) {
-	if pingResult := ping(); pingResult != nil {
-		t.Error(pingResult)
+	if err := db.Ping(); err != nil {
+		t.Error(err)
 	}
 }

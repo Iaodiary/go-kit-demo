@@ -9,13 +9,9 @@ import (
 var db *sql.DB
 
 func init() {
-	dbSourceName := "root:iao123456@tcp(10.0.75.1:3306)/goAdvert"
+	dbSourceName := "root:iao123456@tcp(10.0.75.1:3306)/adv?charset=utf8"
 	db, _ = sql.Open("mysql", dbSourceName)
 	db.SetMaxOpenConns(10)
 	db.SetMaxOpenConns(3)
 	//db.Ping() //trigger db connect
-}
-
-func ping() error {
-	return db.Ping()
 }
