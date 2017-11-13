@@ -3,6 +3,10 @@
 	"ignore": "test",
 	"package": [
 		{
+			"path": "appengine/cloudsql",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "Tm7AeB5q3ZL6AXHIk9a/h5eEcmY=",
 			"path": "github.com/go-kit/kit/log",
 			"revision": "e2b298466b32c7cd5579a9b9b07e968fc9d9452c",
@@ -13,9 +17,15 @@
 			"revision": ""
 		},
 		{
+			"checksumSHA1": "IzBTjqHgEQ/6fLu1/7O0+KeU/E0=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "fade21009797158e7b79e04c340118a9220c6f9e",
+			"revisionTime": "2017-10-17T18:16:16Z"
+		},
+		{
 			"path": "github.com/go-stack/stack",
 			"revision": ""
 		}
 	],
-	"rootPath": "yikeshome/go-kit-demo/bannerman"
+	"rootPath": "go-kit-demo/bannerman"
 }
