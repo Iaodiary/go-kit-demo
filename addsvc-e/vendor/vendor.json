@@ -1,0 +1,35 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "GfNvC/hjlSAQ/6Js8dTc1NkPRNw=",
+			"path": "github.com/apache/thrift/lib/go/thrift",
+			"revision": "4f77ab8e296d64c57e6ea1c6e3f0f152bc7d6a3a",
+			"revisionTime": "2017-09-21T13:21:00Z"
+		},
+		{
+			"checksumSHA1": "YS2Hkq13J4fMkBjMmkwEJzkqYMY=",
+			"path": "github.com/kr/logfmt",
+			"revision": "b84e30acd515aadc4b783ad4ff83aff3299bdfe0",
+			"revisionTime": "2014-02-26T03:06:59Z"
+		},
+		{
+			"checksumSHA1": "fOJ0Dq5bMAWizM9gpVEgGpEOvUU=",
+			"path": "github.com/opentracing/opentracing-go",
+			"revision": "1361b9cd60be79c4c3a7fa9841b3c132e40066a7",
+			"revisionTime": "2017-10-03T13:35:19Z"
+		},
+		{
+			"checksumSHA1": "j09KLtaK3SVvS3hSKjI4kUvhWPY=",
+			"path": "github.com/opentracing/opentracing-go/ext",
+			"revision": "1361b9cd60be79c4c3a7fa9841b3c132e40066a7",
+			"revisionTime": "2017-10-03T13:35:19Z"
+		},
+		{
+			"path": "golang.org/x/net/context",
+			"revision": ""
+		}
+	],
+	"rootPath": "yikeshome/go-kit-demo/addsvc-e"
+}

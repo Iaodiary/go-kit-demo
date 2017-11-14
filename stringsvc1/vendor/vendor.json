@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "YS2Hkq13J4fMkBjMmkwEJzkqYMY=",
+			"path": "github.com/kr/logfmt",
+			"revision": "b84e30acd515aadc4b783ad4ff83aff3299bdfe0",
+			"revisionTime": "2014-02-26T03:06:59Z"
+		}
+	],
+	"rootPath": "yikeshome/go-kit-demo/stringsvc1"
+}
