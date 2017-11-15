@@ -7,6 +7,7 @@ import "context"
 //condition1 : (group_id, size, en)
 //condition2 : (website, size, en)
 //condition3 : (UUID, website, size, en, )
+//condition3 : (UUID, website, size, en,website_title )
 //UUID should be get from transport like:
 //layer-http cookie or get param
 //gobuffer param token
@@ -21,5 +22,27 @@ import "context"
 //Client must get user whether active, and sent heartbeat every 3 seconds
 //It can help us to calculate put how much banners on it, and banner switch interval
 type BannerService interface {
-	Get(ctx context.Context)
+	GetBanner(ctx context.Context)
+	GetBanners(ctx context.Context)
+}
+
+//BannerRequest is
+type BannerRequest struct {
+	GroupID int
+	Size    string
+	Lang    string
+}
+
+//BannersRequest is
+type BannersRequest struct {
+}
+
+type bannerService struct{}
+
+func (s bannerService) GetBanner(ctx context.Context) {
+
+}
+
+func (s bannerService) getPopularBanner(ctx context.Context) {
+
 }
