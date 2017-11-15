@@ -1,4 +1,4 @@
-package addservice
+package adservice
 
 import "context"
 
@@ -6,6 +6,7 @@ import "context"
 //And it's depend what param client send
 //condition1 : (group_id, size, en)
 //condition2 : (website, size, en)
+//condition3 : (UUID, website, size, en, )
 //condition3 : (UUID, website, size, en, )
 //condition3 : (UUID, website, size, en,website_title )
 //UUID should be get from transport like:
@@ -26,11 +27,11 @@ type BannerService interface {
 	GetBanners(ctx context.Context)
 }
 
-//BannerRequest is
+//BannerRequest convert request to struct BannerRequest
 type BannerRequest struct {
-	GroupID int
-	Size    string
-	Lang    string
+	GroupID int    `json:"group_id"`
+	Size    string `json:"size"`
+	Lang    string `json:"lang"`
 }
 
 //BannersRequest is
@@ -46,3 +47,5 @@ func (s bannerService) GetBanner(ctx context.Context) {
 func (s bannerService) getPopularBanner(ctx context.Context) {
 
 }
+
+//BannerLog url, banner_id
